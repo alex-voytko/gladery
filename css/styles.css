@@ -164,7 +164,10 @@ ul {
     text-align: left;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: var(--icon-color);
+}
+.icon-container svg {
+    fill: var(--icon-color);
 }
 .icon-content .discription {
     margin-top: 10px;
