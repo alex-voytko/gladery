@@ -25,6 +25,12 @@ a {
 button {
     cursor: pointer;
 }
+button:hover,
+button:focus {
+    box-sizing: border-box;
+    background-color: var(--title-text-color);
+    color: var(--accent-color);
+}
 ul {
     list-style: none;
 }
@@ -191,7 +197,10 @@ ul {
 .section-3 {
     padding: 94px 0;
     margin: 0 auto;
-    background-color: #F5F4FA;
+    background: 
+    linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), 
+    linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), var(--secondary-text-color);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .backdrop {
     position: fixed;
