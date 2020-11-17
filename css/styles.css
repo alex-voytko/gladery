@@ -120,7 +120,7 @@ ul {
     text-transform: uppercase;
     color: var(--title-text-color);
 }
-.section-1 .main-button {
+.main-button {
     display: block;
     width: 200px;
     height: 50px;
@@ -193,6 +193,20 @@ ul {
 .icon-content {
     margin-left: 30px;
     width: 700px;
+}
+.section-3 h2 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: var(--contrast-color)
+}
+.section-3 {
+    padding: 94px 0;
+    margin: 0 auto;
+    background-color: #F5F4FA;
 }
 .backdrop {
     position: fixed;
