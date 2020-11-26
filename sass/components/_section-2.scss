@@ -1,0 +1,63 @@
+.section-2{
+    padding: 94px 0;
+    margin: 0 auto;
+    background-color: $title-text-color;
+    h2{
+        display: none;
+    }
+}
+.work-list{
+    .item{
+        display: flex;
+        width: 900px;
+        margin-bottom: 70px;
+        margin-right: auto;
+        margin-left: auto;
+        &:last-child{
+            margin-bottom: 0
+        }
+        .icon-container{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            height: 150px;
+            h3{
+                margin-top: 15px;
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 1.143;
+                letter-spacing: 0.03em;
+                text-align: left;
+                text-align: center;
+                text-transform: uppercase;
+                color: $icon-color;
+            }
+            svg{
+                display: block;
+                fill: $icon-color;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .icon-content{
+            margin-left: 30px;
+            width: 700px;
+            h4{
+                margin-top: 0;
+                margin-bottom: 0;
+                font-size: 28px;
+                color: $accent-color;
+            }
+            .discription{
+                margin-top: 10px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 1.714;
+                text-align: justify;
+                letter-spacing: 0.03em;
+                color: $secondary-text-color;
+            }
+        }
+    }
+}

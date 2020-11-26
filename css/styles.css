@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --primary-text-color: #212121;
     --title-text-color: #FFFFFF;
     --secondary-text-color: #757575;
@@ -89,8 +89,8 @@ ul {
 .contacts-list .link:hover,
 .contacts-list .link:focus {
     color: var(--accent-color);
-}
-.section-1 {
+} */
+/* .section-1 {
     align-items: center;
     padding: 200px 0 200px 0;
     background-size: cover;
@@ -124,8 +124,8 @@ ul {
     line-height: 1.875;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
-}
-.section-2 {
+} */
+/* .section-2 {
     padding: 94px 0;
     margin: 0 auto;
     background-color: var(--title-text-color);
@@ -198,8 +198,8 @@ ul {
     padding: 94px 0;
     margin: 0 auto;
     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.25);
-}
-.backdrop {
+} */
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -372,8 +372,7 @@ ul {
 .backdrop.is-hidden {
         opacity: 0;
         pointer-events: none;
-        transform: scale(0.1);
-}
+        transform: scale(0.1); */
 footer {
     padding: 60px 0;
     background-color: var(--contrast-color);
